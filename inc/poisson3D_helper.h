@@ -32,7 +32,7 @@ void generate_coefficient_matrix(domain_size_t domain_size,
                                  grid_size_t grid_size,
                                  boundary_conditions_t boundary_conditions,
                                  physical_paramaters_t physical_parameters,
-                                 double (*source)(double x,double y,double z,double t),
+                                 double (*source)(double x,double y,double z),
                                  grid_coordinates_t* grid_coordinates,
                                  kershaw_algorithm_data_t* kershaw_data);
 
