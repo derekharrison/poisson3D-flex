@@ -6,7 +6,7 @@
  *
  *      This code solves the 3D Poisson equation:
  *
- *      gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q(x,y,z,t) = 0
+ *      gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q(x,y,z) = 0
  *
  *      On a rectangular grid. The code handles mixed boundary conditions, i.e.
  *      both Neumann and Dirichlet boundary conditions

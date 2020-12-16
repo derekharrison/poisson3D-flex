@@ -27,7 +27,7 @@ void poisson3D(domain_size_t domain_size,
     /*
      * This function solves the 3D modified poisson equation:
      *
-     * gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q(x,y,z,t) = 0
+     * gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q(x,y,z) = 0
      *
      * on a rectangluar grid. The code handles mixed boundary conditions, i.e.
      * both Neumann and Dirichlet boundary conditions.
