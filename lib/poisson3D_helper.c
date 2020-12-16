@@ -140,7 +140,6 @@ void generate_coefficient_matrix(domain_size_t domain_size,
      * input        domain_size
      * input        grid_size
      * input        boundary_conditions
-     * input        time_data
      * input        physical_parameters
      * input        source
      * input        grid_coordinates
@@ -790,8 +789,7 @@ void initialize_temperature_field(grid_size_t grid_size,
     /*
      * Initialize temperature field
      *
-     * input    grid_size.
-     * input    time_data
+     * input    grid_size
      * output   x
      */
 

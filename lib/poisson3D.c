@@ -25,9 +25,9 @@ void poisson3D(domain_size_t domain_size,
             double ***T)
 {
     /*
-     * This function solves the 3D heat equation:
+     * This function solves the 3D modified poisson equation:
      *
-     * gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q(x,y,z,t) = rho*Cp*dT/dt
+     * gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q(x,y,z,t) = 0
      *
      * on a rectangluar grid. The code handles mixed boundary conditions, i.e.
      * both Neumann and Dirichlet boundary conditions.
@@ -48,7 +48,6 @@ void poisson3D(domain_size_t domain_size,
      * input     domain_size
      * input     grid_size
      * input     boundary_conditions
-     * input     time_data
      * input     physical_parameters
      * input     source()
      * output    grid_coordinates

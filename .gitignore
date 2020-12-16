@@ -4,7 +4,7 @@ Debug/
 GridX.txt
 GridY.txt
 GridZ.txt
-heat3D.txt
+poisson3D.txt
 T_alongx_atyz.gnumeric
 T_alongx_atyz.txt
 T_alongx_atyz_verification.gnumeric
