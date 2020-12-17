@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
                             &boundary_conditions);
 
 
-    /* Calling 3D heat conduction solver */
+    /* Calling Poisson solver */
     poisson3D(domain_size,
               grid_size,
               boundary_conditions,
