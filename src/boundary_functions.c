@@ -11,16 +11,15 @@
 double boundary_west(double y, double z)
 {
     /*
-     * Specify the west face temperature or flux distribution for the transient heat conduction
+     * Specify the west face boundary distribution for the Poisson equation
      * equation.
-     * If the boundary is of type DIRICHLET, specify the temperature distribution. If the boundary
-     * is of type NEUMANN specify the flux distribution.
+     * If the boundary is of type DIRICHLET, specify the distribution at the boundary. If the boundary
+     * is of type NEUMANN specify the flux distribution at the boundary.
      *
-     * The temperature or flux distribution is of the form f(y,z,t).
+     * The distribution or flux distribution is of the form f(y,z).
      *
      * input    y
      * input    z
-     * input    t
      *
      * return   f
      */
@@ -36,16 +35,15 @@ double boundary_west(double y, double z)
 double boundary_east(double y, double z)
 {
     /*
-     * Specify the east face temperature  or flux distribution for the transient heat conduction
+     * Specify the east face boundary distribution for the Poisson equation
      * equation.
-     * If the boundary is of type DIRICHLET, specify the temperature distribution. If the boundary
-     * is of type NEUMANN specify the flux distribution.
+     * If the boundary is of type DIRICHLET, specify the distribution at the boundary. If the boundary
+     * is of type NEUMANN specify the flux distribution at the boundary.
      *
-     * The temperature or flux distribution is of the form f(y,z,t).
+     * The distribution or flux distribution is of the form f(y,z).
      *
      * input    y
      * input    z
-     * input    t
      *
      * return   f
      */
@@ -61,16 +59,15 @@ double boundary_east(double y, double z)
 double boundary_south(double x,double z)
 {
     /*
-     * Specify the south face temperature or flux distribution for the transient heat conduction
+     * Specify the south face boundary distribution for the Poisson equation
      * equation.
-     * If the boundary is of type DIRICHLET, specify the temperature distribution. If the boundary
-     * is of type NEUMANN specify the flux distribution.
+     * If the boundary is of type DIRICHLET, specify the distribution at the boundary. If the boundary
+     * is of type NEUMANN specify the flux distribution at the boundary.
      *
-     * The temperature or flux distribution is of the form f(x,z,t).
+     * The distribution or flux distribution is of the form f(x,z).
      *
      * input    x
      * input    z
-     * input    t
      *
      * return   f
      */
@@ -86,16 +83,15 @@ double boundary_south(double x,double z)
 double boundary_north(double x,double z)
 {
     /*
-     * Specify the north face temperature or flux distribution for the transient heat conduction
+     * Specify the north face boundary distribution for the Poisson equation
      * equation.
-     * If the boundary is of type DIRICHLET, specify the temperature distribution. If the boundary
-     * is of type NEUMANN specify the flux distribution.
+     * If the boundary is of type DIRICHLET, specify the distribution at the boundary. If the boundary
+     * is of type NEUMANN specify the flux distribution at the boundary.
      *
-     * The temperature or flux distribution is of the form f(x,z,t).
+     * The distribution or flux distribution is of the form f(x,z).
      *
      * input    x
      * input    z
-     * input    t
      *
      * return   f
      */
@@ -111,16 +107,15 @@ double boundary_north(double x,double z)
 double boundary_bottom(double x,double y)
 {
     /*
-     * Specify the bottom face temperature or flux distribution for the transient heat conduction
+     * Specify the bottom face boundary distribution for the Poisson equation
      * equation.
-     * If the boundary is of type DIRICHLET, specify the temperature distribution. If the boundary
-     * is of type NEUMANN specify the flux distribution.
+     * If the boundary is of type DIRICHLET, specify the distribution at the boundary. If the boundary
+     * is of type NEUMANN specify the flux distribution at the boundary.
      *
-     * The temperature or flux distribution is of the form f(x,y,t).
+     * The distribution or flux distribution is of the form f(x,y).
      *
      * input    x
      * input    y
-     * input    t
      *
      * return   f
      */
@@ -136,16 +131,15 @@ double boundary_bottom(double x,double y)
 double boundary_top(double x,double y)
 {
     /*
-     * Specify the top face temperature or flux distribution for the transient heat conduction
+     * Specify the top face boundary distribution for the Poisson equation
      * equation.
-     * If the boundary is of type DIRICHLET, specify the temperature distribution. If the boundary
-     * is of type NEUMANN specify the flux distribution.
+     * If the boundary is of type DIRICHLET, specify the distribution at the boundary. If the boundary
+     * is of type NEUMANN specify the flux distribution at the boundary.
      *
-     * The temperature or flux distribution is of the form f(x,y,t).
+     * The distribution or flux distribution is of the form f(x,y).
      *
      * input    x
      * input    y
-     * input    t
      *
      * return   f
      */
