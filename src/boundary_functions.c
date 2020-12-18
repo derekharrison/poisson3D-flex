@@ -157,7 +157,7 @@ double source_equation(double x, double y, double z)
     /*
      * Specify the source equation for the transient heat conduction equation:
      *
-     * gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q(x,y,z) = rho*Cp*dT/dt
+     * gammax*d2T/dx2 + gammay*d2T/dy2 + gammaz*d2T/dz2 + q = 0
      *
      * The source equation is of the form q(x,y,z).
      *
