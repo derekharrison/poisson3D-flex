@@ -56,7 +56,7 @@ double boundary_east(double y, double z)
 
 
 /*-----------------------------------------------------------------------------------------------*/
-double boundary_south(double x,double z)
+double boundary_south(double x, double z)
 {
     /*
      * Specify the south face boundary distribution for the Poisson equation
@@ -80,7 +80,7 @@ double boundary_south(double x,double z)
 
 
 /*-----------------------------------------------------------------------------------------------*/
-double boundary_north(double x,double z)
+double boundary_north(double x, double z)
 {
     /*
      * Specify the north face boundary distribution for the Poisson equation
@@ -104,7 +104,7 @@ double boundary_north(double x,double z)
 
 
 /*-----------------------------------------------------------------------------------------------*/
-double boundary_bottom(double x,double y)
+double boundary_bottom(double x, double y)
 {
     /*
      * Specify the bottom face boundary distribution for the Poisson equation
@@ -128,7 +128,7 @@ double boundary_bottom(double x,double y)
 
 
 /*-----------------------------------------------------------------------------------------------*/
-double boundary_top(double x,double y)
+double boundary_top(double x, double y)
 {
     /*
      * Specify the top face boundary distribution for the Poisson equation
